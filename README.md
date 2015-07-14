@@ -6,3 +6,4 @@
     assignVar.py  - Variable assignment 
     ifStmt.py     - if statement
     loops.py      - loops statement
+    functions.py  - functions
