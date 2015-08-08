@@ -1,4 +1,4 @@
-# Python Sample : Assignment
+# Python Sample : mathlibs.py
 # Version : Python 2.x
 '''
     This program is free software: you can redistribute it and/or modify

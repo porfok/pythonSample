@@ -1,6 +1,4 @@
-import mathlibs
-
-# Python Sample : import_test.py
+# Python Sample : Rectangle.py
 # Version : Python 2.x
 '''
     This program is free software: you can redistribute it and/or modify
@@ -17,7 +15,28 @@ import mathlibs
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 '''
 
-print "Python import demo"
-print
+class Rectangle(object):
+    def __init__(self, w, h):
+        self.width = w
+        self.height = h
 
-print "4 * 5 = ", mathlibs.times(4, 5)
+    def area(self):
+        return self.width * self.height
+
+# Class Square inherit Class Rectangle with prpperty width = height
+class Square(Rectangle):
+    def __init__(self, s):
+       self.side = s
+       self.width = s
+       self.height = s
+
+
+print "Python Class deom"
+print
+r = Rectangle (2, 3)
+print "area of rectangle ", r.width, "x", r.height, " = ", r.area()
+
+s = Square(10)
+print "area of square ", s.side , " = ", s.area()
+
+
